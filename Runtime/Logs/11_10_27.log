@@ -1,0 +1,12 @@
+[ 2011-10-27T06:14:25+08:00 ] ERR: (ThinkException) 模板不存在[./Tpl/qiyi/Home/pp_tag.html]
+[ 2011-10-27T06:14:26+08:00 ] ERR: (ThinkException) 模板不存在[./Tpl/qiyi/Home/pp_newslist.html]
+[ 2011-10-27T08:51:45+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-27T08:52:02+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-27T10:30:58+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-27T10:58:11+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-27T11:06:34+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-27T11:25:02+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-27T11:36:29+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-27T11:47:53+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-27T11:56:33+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-27T19:04:25+08:00 ] ERR: (ThinkException) 非法操作index

@@ -1,0 +1,53 @@
+<div class="wrap">
+<div class="head">
+		<div class="head_a">
+		
+	<div class="logo"><a href="{$siteurl}" target="_blank"><img src="{$tpl}images/logo.jpg" /></a></div>
+			 
+			<div class="head_cont">
+				<div class="toplink">【<a href="#" 
+onClick="setHome(this,'http://{maxcms:siteurl}')">设为首页</a>】【<a href="javascript:void(0)" onClick="addFavorite('http://{maxcms:siteurl}','{maxcms:sitename}');">加入收藏</a>】【<a href="/{maxcms:sitepath}rank.html" class="red">热播排行榜</a>】【<a href="/{maxcms:sitepath}hot.html" class="red">推荐排行榜</a>】【<a href="/{maxcms:sitepath}gbook.asp" target="_blank" class="red">留言</a>】【<a href="/{maxcms:sitepath}google.xml ">GOOGLE地图</a>】【<a href="/{maxcms:sitepath}baidu.xml">百度地图</a>】【<a href="/{maxcms:sitepath}rss.xml">RSS订阅</a>】【<a href="/{maxcms:sitepath}allmovie.html">网站地图</a>】</div>
+				<div class="ad3">
+				<!--首页顶部右侧广告位开始-->
+				<script type="text/javascript" language="javascript" src="/{maxcms:sitepath}js/{maxcms:adfolder}/index-top-middle.js"></script>
+				<!--首页顶部右侧广告位结束-->
+				</div>
+				<div class="ad6">
+				<!--首页顶部右侧广告位开始-->
+				<script type="text/javascript" language="javascript" src="/{maxcms:sitepath}js/{maxcms:adfolder}/index-top-right.js"></script>
+				<!--首页顶部右侧广告位结束-->
+				</div>
+					</div>
+			</div>
+		</div>
+		<div class="nav">
+			<ul>
+				<li><span><a href="{maxcms:indexlink}">首 页</a></span></li>
+				{maxcms:menulist type=top}
+				<li{if:[menulist:typeid]={maxcms:currenttypeid}} class="current" {end if}><span><a href="[menulist:link]">[menulist:typename]</a></span></li>
+				{/maxcms:menulist}
+				<li><span><a href="{maxcms:topiclink}" class="red">专 题</a></span></li>
+<li><span><a href="{maxcms:newslink}" class="red">资讯</a></span></li>
+			</ul>
+		</div>
+		<div class="head_b">
+			<div class="sealet">
+				<form method="post" action="/{maxcms:sitepath}search.asp" name="formsearch" id="formsearch">
+					<span>数据搜索</span>
+					<input type="text" name="searchword" class="input_key" id="searchword"/>
+					<select name="searchtype" id="searchtype">
+						<option value="-1">条件(默认全部)</option>
+						<option value="0">标题</option>
+						<option value="1">主演</option>
+						<option value="2">地区</option>
+						<option value="3">年份</option>
+					</select>
+					<input type="submit" name="submit" value="" class="input_sub" />
+				</form>
+			</div>
+			<div class="searight"><b>热门关键字:</b>{maxcms:keywords}</div>
+		</div>
+		<div class="place"><span>当天更新<b>{maxcms:daycount}</b>部  总数量<b>{maxcms:allcount}</b>部</span> <p>{maxcms:letterlist}</p></div>
+	</div>
+		
+

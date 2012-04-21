@@ -1,0 +1,1 @@
+2010-12-29  在首页添加了仿照迅雷形式的movie_info  即热播hover上之后出简介  （pp_index.html, style.css,添加jquery.js）

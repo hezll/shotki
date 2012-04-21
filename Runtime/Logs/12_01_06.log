@@ -1,0 +1,7 @@
+[ 2012-01-06T08:52:55+08:00 ] ERR: (ThinkException) 模板不存在[./Tpl/qiyi/Home/pp_tag.html]
+[ 2012-01-06T09:17:03+08:00 ] ERR: (ThinkException) 模板不存在[./Tpl/qiyi/Home/pp_tag.html]
+[ 2012-01-06T12:03:43+08:00 ] ERR: (ThinkException) 模板不存在[./Tpl/qiyi/Home/pp_newslist.html]
+[ 2012-01-06T17:48:31+08:00 ] ERR: (ThinkException) 无法加载模块Admin/collect/gxcms1/ziyuan/feifei/fid/5/inputer/gxcms1/action/day/h/24/xmlurl/http:@@www.bdyyzy.com/reurl/http:@@www.bdyyzy.com@vod@
+[ 2012-01-06T23:09:08+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2012-01-06T23:11:16+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111)
+[ 2012-01-06T23:11:16+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (111)

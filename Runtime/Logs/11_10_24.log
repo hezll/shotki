@@ -1,0 +1,40 @@
+[ 2011-10-24T08:14:35+08:00 ] ERR: (ThinkException) 模板不存在[./Tpl/qiyi/Home/pp_tag.html]
+[ 2011-10-24T08:51:09+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-24T13:31:47+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-24T14:07:36+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-24T14:35:27+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-24T14:59:13+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-24T15:27:49+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-24T15:42:48+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-24T15:56:27+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-24T16:08:44+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-24T16:27:20+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-24T16:35:40+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-24T21:34:08+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:34:11+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:34:25+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:34:25+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:34:41+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:35:28+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:35:39+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:35:50+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:35:59+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:36:09+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:36:12+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:36:12+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:36:19+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:36:20+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:36:25+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:36:27+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:36:29+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:36:34+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:36:39+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:36:59+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:37:07+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:37:10+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:37:19+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T21:37:21+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T22:06:00+08:00 ] ERR: (ThinkException) Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[ 2011-10-24T22:53:36+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-24T23:16:53+08:00 ] ERR: (ThinkException) 非法操作index
+[ 2011-10-24T23:48:41+08:00 ] ERR: (ThinkException) 非法操作index

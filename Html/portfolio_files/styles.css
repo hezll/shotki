@@ -1,0 +1,860 @@
+
+#site{font-family:"Helvetica Neue", Arial, Helvetica, sans-serif; border-top:5px solid #0063A2;}
+
+/*** HEADER ***/
+.header{height:115px;clear:both;width:940px;margin:0 auto;font-size:125%;font-weight:bold;}
+
+.header a{color:#000;text-decoration:none}
+
+.header a:hover{text-decoration:underline}
+
+.headLogo{float:left;padding:15px 0}
+
+.topButs{float:right;width:230px}
+
+.topButs li{float:left;margin-right:10px;}
+
+.loginTop{ 
+background:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/logout_but.gif) no-repeat;
+color:#fff;
+width:61px;
+display:block;
+height:22px;
+text-align:center;
+}
+
+a.loginTop{color:#fff;}
+
+.free-call-but{
+margin-top:10px;
+clear:right;
+float:right;
+}
+
+.comment{display:none}
+
+.alert{
+color:#ff0000;
+}
+
+.feat{
+color:#0000ff;
+}
+
+
+form input[type="text"]{color:#555}
+form input:focus{color:#000}
+
+
+
+/**** MENU ***/
+.positioner {position:relative; height:28px;background:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/navbg.gif) repeat-x}
+
+.menuHolder {
+position:absolute; 
+z-index:100; 
+font:bold 13px/28px "Trebuchet MS", Arial,Helvetica,sans-serif; 
+left:50%; 
+margin-left:-470px; 
+text-transform:uppercase;
+}
+
+ul.ulTop, ul.ulTopA, ul.ulTopB {
+padding:0; margin:0; 
+list-style:none; 
+overflow:hidden; 
+float:left;
+margin-right:1px;
+}
+
+ul.ulTop{width:190px;}
+
+ul.ulTopA{width:100px;}
+
+ul.ulTopB{width:145px;}
+
+ul.ulTop a, ul.ulTopA a, ul.ulTopB a {text-decoration:none; color:#fff; padding-left:5px;}
+
+ul.ulTop li.liTop, ul.ulTopA li.liTopA, ul.ulTopB li.liTopB  {
+float:left;
+}
+
+ul.ulTop li.liTop{ margin:-32767px -215px 0 0; }
+
+ul.ulTopA li.liTopA{margin:-32767px -100px 0 0;}
+
+ul.ulTopB li.liTopB{margin:-32767px -165px 0 0;}
+
+
+ul.ulTop li.liTop a.aTop, ul.ulTopA li.liTopA a.aTopA, ul.ulTopB li.liTopB a.aTopB {
+position:relative;
+z-index:50;
+display:block;
+float:left;
+margin-top:32767px;
+}
+
+ul.ulTop li.liTop a.aTop { width:185px;}
+
+ul.ulTopA li.liTopA a.aTopA {width:100px;}
+
+ul.ulTopB li.liTopB a.aTopB {width:140px;}
+
+ul.ulTop li.liTop a.aTop:hover, ul.ulTopA li.liTopA a.aTopA:hover, ul.ulTopB li.liTopB a.aTopB:hover{
+margin-right:1px;
+background:#b9d5ee;
+color:#000;
+}
+
+
+ul.sub, ul.subA {
+float:left; 
+padding:28px 0 0 0; 
+margin:0; 
+list-style:none; 
+background:#306dac;
+margin-top:-28px;
+}
+
+ul.sub li a, ul.subA li a {
+float:left;
+background:#306dac;
+clear:left;
+border-bottom:1px solid #fff;
+}
+
+ul.sub li a, ul.subA li a{background:#fff;color:#000;border-bottom:1px solid #306dac;}
+
+ul.sub li a {width:160px;}
+ul.subA li a {width:210px;}
+
+
+ul.sub a:hover, ul.subA a:hover{
+background:#b9d5ee;
+color:#000;
+margin-right:1px;
+}
+
+.1st1 a{
+border-top:1px solid #fff;
+}
+
+
+/***** MAIN CONTENT ******/
+
+#mainContent{color:#555555;background:#538AC6 url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/headerbgA.gif) repeat-x;text-align:left;border-top:1px solid #A0BFDF;}
+
+#mainContent a{
+color:#376cb0;
+}
+
+#mainContent p, h3{
+margin:5px 0;
+}
+
+
+
+#mainContent h3{
+font-size:110%;
+}
+
+.bodyContent{
+width:940px;
+margin:1px auto;
+background:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/bannerbgA.jpg) no-repeat;
+}
+
+#main_content h3{
+font-size:140%;
+margin-top:15px;
+}
+
+.topContent{
+float:left;
+width:500px;
+height:120px;
+}
+
+.topContent h2{
+font-size:18px;
+font-weight:bold;
+color:#fff;
+padding-top:30px;
+border:none;
+line-height:25px;
+}
+
+.topContent a:link, .topContent a:visited{color:#fff!important}
+.topContent a:hover{color:#ffff00!important}
+
+.mainBody{
+clear:both;
+padding:35px 0;
+}
+
+
+h3{font-size:1.8em; color:#2b5b99; border-bottom:2px solid #2b5b99;padding-bottom:10px;font-weight:bold;line-height:1.0;margin:0 0 1em 0;letter-spacing:-0.02em;}
+
+h2{font-size:2em; color:#2b5b99; border-bottom:2px solid #2b5b99;padding-bottom:10px;font-weight:bold;line-height:1.0;margin:0 0 1em 0;letter-spacing:-0.02em;}
+
+/**** PRESENTER MAIN STYLES *****/
+
+.presenterMain{
+position:relative;
+background:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/bg_actors_main.png) no-repeat;
+width:675px;
+height:379px;
+margin-bottom:10px;
+}
+
+.actBut{position:absolute;width:100px;height:51px;z-index:100;right:20px;top:20px}
+
+.actBut a{display:block;width:100px;height:51px;background:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/button_actors.png) top left no-repeat;}
+.actBut a:hover{background:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/button_actors.png) bottom left no-repeat;}
+.actBut b{display:none}
+
+.p1 a,.p3 a,.p4 a,.p6 a,.p8 a{
+position:absolute;
+bottom:3px;
+left:40px;
+width:90px;
+height:180px;
+background-image: url(transparent.gif); 
+}
+
+.p2 a,.p5 a,.p7 a,.p9 a{
+position:absolute;
+bottom:3px;
+left:50px;
+width:90px;
+height:200px;
+background-image: url(transparent.gif); 
+}
+
+.presenterMain a:hover{
+position:absolute;
+bottom:3px;
+z-index:99;
+}
+
+li.p1{/*brooke*/
+position:absolute;
+left:260px;
+bottom:-3px;
+z-index:10;
+}
+
+li.p2{/*duane*/
+position:absolute;
+left:200px;
+bottom:55px;
+z-index:6;
+}
+
+li.p3{/*hayley*/
+position:absolute;
+left:140px;
+bottom:-3px;
+z-index:8;
+}
+
+li.p4{/*faith*/
+position:absolute;
+left:0px;
+bottom:-3px;
+z-index:10;
+}
+
+li.p5{/*tim*/
+position:absolute;
+left:55px;
+bottom:55px;
+z-index:4;
+}
+
+li.p6{/*Kyle*/
+position:absolute;
+left:350px;
+bottom:-3px;
+z-index:7;
+}
+
+li.p7{/*trent*/
+position:absolute;
+left:420px;
+bottom:55px;
+z-index:2;
+}
+
+li.p8{/*bianka*/
+position:absolute;
+left:475px;
+bottom:-3px;
+z-index:10;
+}
+
+li.p9{/*murray*/
+position:absolute;
+left:530px;
+bottom:30px;
+z-index:2;
+}
+
+
+/**** BUBBLE TOOLTIP ****/
+
+abbr, acronym {
+padding-left: 0.2em;
+padding-right: 0.2em;
+}
+
+.bubbleTooltip {
+width: 159px;
+color:#fff;
+text-decoration:none;
+text-align:center;
+font-size:12px;
+}
+
+.bubbleTooltip span.top {
+padding: 15px 8px 0;
+background: url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/bubbleA.png) no-repeat top;
+}
+
+.bubbleTooltip span.bottom {
+padding:3px 8px 3px;
+color: #000;
+background: url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/bubbleA.png) no-repeat bottom;
+}
+
+.rgtColNew{
+float:right;
+width:240px;
+border-left:1px solid #d3e7eb;
+margin-top:40px;
+background-color:#fff;
+padding:10px 5px;
+}
+
+.logoF{
+width:220px;
+margin:0 auto;
+border:1px solid #d3e7eb;
+}
+
+.rgtText{
+padding:10px;
+font-size:120%;
+}
+
+
+.rgtText a{
+font-weight:bold;
+}
+
+.rgtText h3{
+color:#2b5b99;
+}
+
+
+/***** CLIENTS *****/
+
+.clients{
+clear:both;
+}
+
+
+/**** HEADERS ****/
+
+.headBg{
+background:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/navbg.gif) repeat-x;
+height:28px;
+margin-top:10px;
+padding:4px 0 0 10px;
+color:#fff;
+font-size:16px;
+font-weight:bold;
+}
+
+
+
+/**** INFO BOX *****/
+
+.infobox {background:#d2e8f8;margin:1em 1em 1.6em 0;padding:1em;}
+
+.innerinfo { clear:both}
+
+/**** CONTACT FORM ****/
+
+#contact-form {padding-top:15px;background:#eff7fd;border:1px solid #fff;clear:both;}
+#contact-form label {display: block; float: left; width: 100px; text-align: right;font-size:140%;margin:5px 3px;}
+
+#contact-form p input, #contact-form p select{
+padding:5px;
+margin:3px 0;
+}
+
+#contact-form p input, #contact-form textarea {border:1px solid #aaaaaa;}
+
+#contact-form p input {width:454px;}
+
+#contact-form textarea{width:465px;}
+
+#contact-form p.submit {text-align:center}
+#contact-form  input:focus, #contact-form  textarea:focus{border:1px solid #EDA304;}
+
+#message textarea{font-family: sans-serif}
+
+
+
+/***** Old Right Col ****/
+.sub_content{
+clear:both;
+}
+
+/****** FOOTER *****/
+
+.foot{
+clear:both;
+background:#044a92 url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/footerbg.jpg) repeat-x;
+color:#fff;
+}
+
+.footer_links {width:940px;margin:0 auto;padding:20px 0}
+
+.footer_links a {color:#fff; text-decoration:none; font-size:10pt;}
+
+.footer_links a:hover{text-decoration:underline}
+
+#copyright{
+text-align:center;
+padding:10px 0;
+}
+
+/****** TABLE TEMP CHANGE THIS ****/
+
+#pricing-tab{width:99%;border:1px solid #ccc; border-width:0 1px 1px 0px; margin-top:5px}
+
+
+#pricing-tab h2{font-size:1.1em; margin-bottom:0; color:#054992; letter-spacing:normal; }
+.support-text{color:#666; font-size:0.9em}
+.plan-cost{color:#6D6D6D; font-weight:bold; font-size:1.2em}
+#pricing-tab tr{border-top: 1px solid #DCC;}
+#pricing-tab td, #pricing-tab th{border:1px solid #ccc; border-width:1px 0 0 1px}
+#pricing-tab tr.odd td{background: #E4F3FF;}
+#pricing-tab .emptycell{background:0;border:0}
+
+#pricing-tab tr#top_header{border-top:0}
+#pricing-tab tr#top_header td, #pricing-tab tr#top_header th {background:#EFF7FD; text-align:center;padding-top:4px; color:#fff;}
+#pricing-tab tr#top_header td{border-right:0}
+#pricing-tab .ukbiz{background:#044A92 url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/uj_fade.jpg) left center no-repeat; color:#fff}
+#pricing-tab #cost-tr td, #pricing-tab #signup-tr td{background:#fff; text-align:center;}
+#signup-tr p{ font-size:1.8em; font-weight:bold; color:#044A92; float:left;margin:15px 10px 0 60px; font-style:italic }
+#pricing-tab #signup-tr td .signup{float:left}
+#pricing-tab td, #pricing-tab th{font-size:1.3em;padding:0.2em 0.5em 0.2em 0.5em;vertical-align:middle;text-align:left;}
+#pricing-tab th {text-align:center}
+#pricing-tab .icon_td{text-align:center; vertical-align:middle}
+
+
+/*========================== TOUR TEMP CHANGE THIS =============================*/
+
+.tourbox{background:#EFF7FD; border:2px solid #A3C8E8; overflow:hidden;padding:15px;margin-bottom:20px; width:700px }
+.tour_content{float:right; width:270px}
+.tourbox h3{margin:0.6em 0 0 0; font-size:1.8em; font-weight:bold; border-bottom:0; color:#054992}
+.tourbox p{margin-bottom:0.8em; }
+.mainBody li, .tourbox li, .tourbox p{font-size:1.2em; line-height:1.5; color:#333}
+.tourbox li, .tourbox li{color:#000;margin-left:10px;list-style-image:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/gblt.gif);}
+.tourbox ol, #tour .tourbox ul{margin:0 0 20px 0;padding:0}
+.tourbox ol{padding:0 10px 0 15px}
+.tourbox blockquote{margin:0}
+.tourbox img{border:1px solid #ccc; float:left; margin-right:15px}
+
+
+/******* WELCOME BELLME TEMP CHANGE THIS *******/
+
+.post p{
+font-size:14px;
+line-height:20px;
+}
+
+.post li{
+font-size:14px;
+color:#000;
+margin-left:10px;
+list-style-image:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/gblt.gif);
+line-height:25px;
+}
+
+.bmComm{display:none;}
+
+
+/*** NEW SALES PAGE ****/
+
+.sBox{
+padding:10px;
+width:900px;
+margin:0 auto;
+text-align:left;
+}
+
+.contTm{
+float:left;
+width:541px;
+}
+
+.contTm h2, .hdBot h2{
+font-size:21px;
+margin:3px 0;
+}
+
+.butTest{
+float:right;
+width:242px;
+height:292px;
+background:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/box_but_feat.gif) no-repeat;
+text-align:center;
+color:#fff;
+margin-top:50px;
+}
+
+.butTest h2{
+margin:0;
+font-size:20px;
+}
+
+.butMain{
+padding-top:70px;
+margin: 0 auto;
+text-align:center;
+}
+
+.butFt{
+background-color:#fff;
+border:1px solid #000;
+padding:3px;
+font-size:11px;
+color:#000;
+text-align:left;
+margin-top:13px;
+margin-left:3px;
+margin-right:3px;
+}
+
+h2.titA{
+padding-left:5px;
+background-color:#0086c6;
+color:#fff;
+}
+
+h2.titB{
+padding-left:5px;
+background-color:#a3061c;
+color:#fff;
+}
+
+h2.titC{
+padding-left:5px;
+background-color:#06ac06;
+color:#fff;
+}
+
+.contTm p, .hdBot p{
+margin:3px 0;
+font-size:12px;
+background-color:#f0f0f0;
+padding:3px;
+}
+
+.hdBot{
+clear:both;
+}
+
+.hdCont{
+*height:1%;
+width:6100px;
+}
+
+.hdContA{
+width:100%;
+height:200px;
+overflow-x:auto;
+overflow-y:hidden;
+}
+
+.vidPre{
+float:left;
+border:1px solid #000;
+width:150px;
+text-align:center;
+padding:3px;
+margin:3px;
+}
+
+.vidPre img{
+float:left;
+display:inline;
+}
+
+.menu {
+  border: solid 1px #6AAAD6;
+  border-top:0px;
+  padding:0px;
+  background-color:white;
+}
+
+.menuItem {
+  border-bottom:solid 1px #dddddd;
+}
+
+.menuItem:hover, .menuItem a:hover {
+  background-color:#6AAAD6;
+	color:#FFF;
+}
+
+.menuItem a {
+  display:block;
+  padding:2px 15px;
+  color:#044A92;
+  text-decoration: none;
+}
+
+#demo {
+  background-color:#eeeeee;
+  cursor:pointer;
+  padding:5px 20px 5px 20px;
+  margin: 32px 0;
+  width: 425px;
+}
+
+#demo span {
+  padding:3px 20px 0px 20px;
+  cursor:pointer;
+}
+
+#demo span:hover {
+  text-decoration:underline;
+}
+
+/**** TRIAL PAGE ****/
+
+.lftCol{
+float:left;
+width:580px;
+}
+
+.sBox{background-color:#fff;}
+
+.sBox h1{
+font-size:20px;
+color:#1e437f;
+margin:0;
+padding:0;
+}
+
+.rgtCol{
+margin-left:590px;
+}
+
+.rgtCol h2, .bodyFoot h2{
+background-color:#0086c6;
+color:#fff;
+font-size:16px;
+padding:3px;
+}
+
+.rgtCol p{
+font-size:13px;
+line-height:15px;
+padding:5px 3px;
+}
+
+.bodyFoot{
+clear:both;
+margin:15px 0;
+}
+
+.bodyFootA{
+clear:both;
+margin-top:-30px;
+}
+
+.bodyFootA h2{
+height:28px;
+background:url(http://bellmedia.com/images/navbg.gif) repeat-x;
+color:#fff;
+font-size:15px;
+padding:3px;
+}
+
+hr.hrClass {
+border:1px solid #1e437f;
+}
+
+.trialForm{
+}
+
+.trialForm h3{
+color:#1e437f;
+}
+
+.frmLeft{
+float:left;
+width:49%;
+border:1px solid #000;
+}
+
+.frmRgt{
+float:right;
+width:49%;
+border:1px solid #000;
+}
+
+.frmLeft label, .frmRgt label{
+clear:both;
+float:left;
+border:1px solid #000;
+}
+
+.frmLeft b, .frmRgt b{
+width:110px;
+display:block;
+float:left;
+text-align:right;
+border:1px solid #000;
+font-size:13px;
+}
+
+
+.frmLeft input, .frmRgt input{
+width:150px;
+float:right;
+}
+
+tr.odd{
+background-color:#f8f6d3;
+}
+
+table.tryTble{
+border-right:1px solid #ccc;
+border-left:1px solid #ccc;
+}
+
+table.tryTble tr.headTble td{
+padding:10px;
+border-bottom:1px solid #ccc;
+}
+
+table.tryTble td{
+border-bottom:1px solid #ccc;
+}
+
+.tryBut{
+font-size:18px;
+background-color:#1e437f;
+color:#fff;
+margin-right:15px;
+}
+
+.tryBut:hover{
+background-color:#bf3040;
+}
+
+
+
+
+/***** DIRECTORY ****/
+a { color:#376cb0; }
+hr { color:transparent; border: 0px;}
+.dirLogo { border: 1px solid #fff; margin-bottom:10px; float: left; }
+.dListOut { margin: 10px 0px; text-align: left; clear:both; }
+#dListMap { border: 2px solid #0a0a0a; float:right; width: 320px; height:240px; margin-left: 20px; margin-bottom:20px;}
+.dListFCall { float:right; }
+.dListDesc { text-align: left; }
+.dListInfo { text-align: left;}
+.dListTitle { text-align: left; }
+.dListDesc {  font-size:9pt; margin-top:15px; clear:left;}
+.dleft { float:left; margin-left:40px; }
+.bread { float:left; }
+.bread li { float:right; padding: 0px 5px; font-size:8pt;}
+.bread li a {  font-size:8pt; text-decoration:none; }
+.cats { float:left; list-style:none; width:100%;}
+.cats li { float:left; width:33%; text-align:left; }
+.cats li a { float:left; display:block; padding: 0px; text-decoration:none;}
+.catlist { margin-bottom: 10px; }
+.catlist .left { float:left; width:100%; text-align:left;}
+.catlist .desc { text-align:left; }
+.catlist .right { float:right; }
+.catlist .title { text-align:left; color: #376cb0; font-weight: bold; }
+.catlist .logo { text-align:left; }
+.catlist .address, .catlist .phone { text-align:right; }
+.catlist b, .catlist a { font-size:9pt; text-decoration: none; }
+.catlist .title a { font-size:14pt; }
+.catlist .spacer hr { padding-top:20px; clear:both;  }
+.row1 { background: #fff; }
+.row2 { background: #f8fff3; }
+
+/**** CLICK TO CALL ****/
+
+.sub_new{}
+
+.sub_new hr{clear:both;margin:20px 0}
+
+.bellme_lft{float:left;width:357px;background-color:#f1f1f1;text-shadow: white 0px 1px 0px;padding:20px 20px 20px 20px;margin:45px 0px 0px 0px}
+
+.bellme_lftA{color:#000;float:left;width:560px;background-color:#f1f1f1;text-shadow: white 0px 1px 0px;padding:5px 20px 5px 20px;margin:25px 0px 0px 0px}
+
+.bellme_lftA p{font-size:14px;}
+
+.bellme_lft li{padding-left:35px;background:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/bellme_tick.png) no-repeat;margin:15px 0}
+
+.txtBg{background:#e4e9ed url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/bg_gradTxt1.png) bottom left repeat-x;border-left:1px solid #b9bdc0;border-top:1px solid #b9bdc0;border-right:1px solid #fff;border-bottom:1px dashed #fff;margin:20px 0;padding:5px 8px;}
+
+.txtBg a:hover{text-decoration:none}
+
+.sub_new h3{color:#333;font:bold 26px "Lucida Sans", "Lucida Grande",Lucida,sans-serif;letter-spacing:-1px;margin-top:15px;text-shadow: white 0px 1px 0px;}
+
+.sub_new h4{color:#004e9f;font:bold 22px "Lucida Sans", "Lucida Grande",Lucida,sans-serif;letter-spacing:-1px;margin-top:10px;text-shadow: white 0px 1px 0px;}
+
+.sub_new h5{color:#333;font:bold 18px "Lucida Sans", "Lucida Grande",Lucida,sans-serif;letter-spacing:-1px;text-shadow: white 0px 1px 0px;}
+
+.sub_new li, .sub_new p, .sub_new dl{font-family:verdana, sans-serif;}
+.sub_new li, dl.bellme_stats{font-size:16px;letter-spacing:-1px}
+
+dl.bellme_stats {padding-top:15px 0;line-height:20px;height:170px;width:465px;background:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/bellme_graph_stats.png) top right no-repeat}
+dl.bellme_stats dt{font-weight:bold;margin-top:10px;letter-spacing:normal}
+dl.bellme_stats dd.a8{color:#407901;font-weight:bold}
+dl.bellme_stats dd.a9{color:#004e9f;font-weight:bold}
+
+.bellme_rgt{position:relative;float:right;width:560px;height:524px;background:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/bellme_bg_options.jpg) no-repeat}
+
+.bellme_rgtA{position:relative;float:right;width:350px;height:800px;background:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/trent_pointup.jpg) center center no-repeat;margin:25px 0px 0px 0px}
+
+
+.updBut a{display:block;width:338px;height:66px;background:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/button_howto.png) top left no-repeat;color:#fff!important;font:bold 28px "Lucida Sans", "Lucida Grande",Lucida,sans-serif;letter-spacing:-2px;text-shadow: #000 0px 1px 2px;text-decoration:none;text-transform:uppercase;overflow:hidden}
+
+.updBut a:hover{background:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/button_howto.png) 0px -66px no-repeat}
+
+.updBut a b{display:block;padding:15px 0 0 60px}
+
+.bellme_window{position:absolute;top:207px}
+
+
+.bellme_bot{clear:both;border-top:2px solid #dedede;margin:20px 0 0 0; padding:20px 0 0 0}
+.bellme_bot p{font-size:15px;padding:0 0 6px 0;}
+
+.bellme_bot p.alert{color:#ff0000}
+
+.vList{*height:1%}
+
+.vList dl{text-align:center;float:left;margin-right:1px;margin-bottom:20px;background-color:#fff;border:1px solid #bbb;}
+.vList dl .imgC{border:1px solid #0000ff;cursor:pointer}
+.vList dt{font-size:14px;padding:5px 0;padding:3px;background-color:#407901;color:#fff;text-transform:uppercase;font-weight:bold}
+.vList dd{font-size:14px;padding:3px}
+.vList dd a{padding:5px 0}
+.vList dd a:hover{text-decoration:none;}
+
+.click-to-call{position:relative;width:985px;height:285px;background:url(http://wpc.1be2.edgecastcdn.net/801BE2/bme/graphics/bellme_try.jpg) no-repeat;}
+.free-call-button{position:absolute;top:147px;left:398px}
+
+
+

@@ -1,0 +1,97 @@
+/********* GLOBALS *********/
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url(../fonts/ » segoeui.ttf) format("truetype");
+}
+
+html{
+height:auto !important;
+height:100%; 
+min-height:100%;
+font-family: arial, serif;
+color:#000;
+font-size: 100%; /* for IE */
+}
+
+BODY {font-size:62.5%; }
+
+h1,h2{
+font-weight:normal;
+}
+
+/* 1em:10px */
+
+H1 {font-size:11px;letter-spacing:-1px;color:#ccc;position:absolute;border:1px solid #ccc;margin-left:-2900px}  
+H2 {font-size:1.6em}
+H3 {font-size:1.4em}
+H4 {font-size:1.2em}
+
+
+/********* WhiteSpace Fix *********/
+
+* { padding:0; margin:0; } 
+
+li, dd { 
+margin:0;
+padding:0;
+list-style-type:none;
+} 
+
+dt{
+}
+
+fieldset { 
+padding:0; 
+} 
+
+img { 
+border:0;
+margin:0; 
+padding:0; 
+}
+
+/***** HOLLY HACK *****/
+/* Hides from IE-mac \*/
+* html #head, #addForm {height: 1%;}
+/* End hide from IE-mac */
+
+/***** CLEAR FIX *****/
+
+.clear:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+dl:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+ul:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+
+/****** Global Forms ******/
+form, input {
+margin:0;
+padding:0;
+}
+
+
+
+
+
+
+

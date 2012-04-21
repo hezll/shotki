@@ -1,0 +1,2 @@
+[ 2011-11-11T04:08:47+08:00 ] ERR: (ThinkException) 模板不存在[./Tpl/qiyi/Home/pp_tag.html]
+[ 2011-11-11T07:22:49+08:00 ] ERR: (ThinkException) 模板不存在[./Tpl/qiyi/Home/pp_newssearch.html]
