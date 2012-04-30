@@ -2,9 +2,9 @@
 return array (
   'db_type' => 'mysql',
   'db_host' => 'localhost',
-  'db_name' => 'hezll_ppvod',
-  'db_user' => 'hezlldbuser',
-  'db_pwd' => 'KcZNGGNMEEYuAXP3',
+  'db_name' => 'ppvod',
+  'db_user' => 'root',
+  'db_pwd' => '123456',
   'db_port' => '3306',
   'db_prefix' => 'pp_',
   'db_charset' => 'utf8',
