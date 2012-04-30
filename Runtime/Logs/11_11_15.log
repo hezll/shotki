@@ -1,3 +1,0 @@
-[ 2011-11-15T06:45:15+08:00 ] ERR: (ThinkException) 模板不存在[./Tpl/qiyi/Home/pp_tag.html]
-[ 2011-11-15T20:07:43+08:00 ] ERR: (ThinkException) 非法操作index
-[ 2011-11-15T20:07:55+08:00 ] ERR: (ThinkException) 非法操作index
