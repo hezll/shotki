@@ -1,5 +1,0 @@
-[ 2012-01-12T09:15:49+08:00 ] ERR: (ThinkException) 模板不存在[./Tpl/qiyi/Home/pp_newslist.html]
-[ 2012-01-12T15:44:32+08:00 ] ERR: (ThinkException) 模板不存在[./Tpl/qiyi/Home/pp_tag.html]
-[ 2012-01-12T17:00:02+08:00 ] ERR: (ThinkException) 非法操作index
-[ 2012-01-12T19:50:05+08:00 ] ERR: (ThinkException) 无法加载模块Jedkmhsbjxrpz
-[ 2012-01-12T22:54:10+08:00 ] ERR: (ThinkException) 非法操作index
